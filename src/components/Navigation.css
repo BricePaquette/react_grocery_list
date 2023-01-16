@@ -1,0 +1,9 @@
+.navigation{
+    background-color: #817C91;
+}
+.navigation a{
+    color: #FFF;
+}
+.navigation a:hover{
+    color: #BDDEBF;
+}

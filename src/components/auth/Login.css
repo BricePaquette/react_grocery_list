@@ -1,0 +1,38 @@
+div.login{
+    background-image: url('../../images/bgImage.jpg');
+    /* background-size: 100%; */
+    min-height: 86vh;
+    background-color: #333;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgPurple {
+    background-color: #817C91EE;
+} 
+div.login div.loginBody{
+    min-height: 33vh;
+    padding: 1.1em 2em;
+    border-radius: 10px;
+}
+.loginButton{
+    background-color: #BDDEBF;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+.loginButton:hover{
+    transition: .33s;
+    
+    color: #FFF;
+    background-color: #817C91;
+    border: 2px solid #BDDEBF;
+}
+@media screen and (max-width: 925px) {
+    div.login {
+      background-image: url('../../images/bgImageMobile.jpg');
+      background-position: center; 
+    }
+  }

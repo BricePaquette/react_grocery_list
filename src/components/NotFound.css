@@ -1,0 +1,11 @@
+.notFound{
+    background-image: url('../images/404.png');
+    /* background-size: 100%; */
+    min-height: 86vh;
+    background-color: #BDDEBF;
+    background-attachment: fixed;
+    background-size:100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

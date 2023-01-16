@@ -1,0 +1,44 @@
+section.categories{
+    background-image: url('../../images/bgImage.jpg');
+    /* background-size: 100%; */
+    min-height: 86vh;
+    background-color: #333;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bgPurple {
+    background-color: #817C91EE;
+} 
+.categoriesBody{
+    min-height: 33vh;
+    padding: 1.1em 2em;
+    border-radius: 10px;
+    
+}
+.categoriesBody td{
+    border: none;
+}
+.categoriesBody th{
+    border-color: #BDDEBF;
+}
+.createButton{
+    background-color: #BDDEBF;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+.editButton{
+    background-color: #817C91;
+    border: 2px solid #BDDEBF;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: #FFF;
+}
+@media screen and (max-width: 925px) {
+    section.categories {
+      background-image: url('../../images/bgImageMobile.jpg');
+      background-position: center; 
+    }
+  }
