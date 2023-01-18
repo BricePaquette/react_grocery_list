@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, {useState} from 'react'
 import './Groceries.css'
-import {FaTrashAlt, FaEdit} from 'react-icons/fa'
+import { FaTrashAlt, FaEdit } from 'react-icons/fa'
 import { useAuth } from '../../contexts/AuthContext'
 
 export default function SingleGrocery(props) {
@@ -36,10 +36,10 @@ export default function SingleGrocery(props) {
           <td>{props.grocery.category.catName}</td>
           {currentUser.email === process.env.REACT_APP_ADMIN_EMAIL && 
           <td>
-            <button className='m-1 rounded' id='editLink' onClick={() => setShowEdit(true)}>
+            <button className='m-1 rounded' onClick={() => setShowEdit(true)}>
               <FaEdit />
             </button>
-            <button className='m-1 rounded' id='deleteLink' onClick={() => deleteGrocery(props.grocery.toDoId)}>
+            <button className='m-1 rounded' onClick={() => deleteGrocery(props.grocery.toDoId)}>
               <FaTrashAlt />
             </button>
             {/* {showEdit &&

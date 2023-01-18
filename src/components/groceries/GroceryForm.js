@@ -63,8 +63,7 @@ export default function GroceryForm(props) {
             </div>
             <div className="form-group m-3">
                 <Field name='categoryId' as='select' className='form-control'>
-                    {/* below we will map an option tag for every category in the API
-                        we will also hardcode a disabled option as a user prompt */}
+                   
                     <option value='' disabled>[--Please Choose--]</option>
                     {
                         categories.map(x => 
